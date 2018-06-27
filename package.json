@@ -1,0 +1,24 @@
+{
+  "name": "programs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "javascript-obfuscator": "^0.16.0",
+    "path": "^0.12.7",
+    "pump": "^3.0.0",
+    "uglify-js": "^3.4.2"
+  },
+  "devDependencies": {
+    "grunt-npm-install": "^0.3.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}

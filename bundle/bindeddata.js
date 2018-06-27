@@ -1,0 +1,10 @@
+function uppercase(e){for(var r=e.split(" "),t=[],p=0;p<r.length;p++)t.push(r[p].charAt(0).toUpperCase()+r[p].slice(1));return t.join(" ")}document.write(uppercase("the quick brown fox"));
+var sum=0,j=0,arr=[];function coin(r,n){for(document.write(n),i=0;i<n.length;i++)for(;sum+n[i]<=r;)sum+=n[i],arr[j]=n[i],document.write(arr[j]),j+=1}coin(30,[25,10,5,2,1]),document.write(arr);
+function matrix(o){var l,n;for(l=0;l<o;l++){for(n=0;n<o;n++)l===n?console.log(" 1 "):console.log(" 0 ");console.log("----------")}}matrix(4);
+var newarray=[];function myfunc(r){newarray=r.sort(function(r,n){return r-n}),document.write(newarray);var n=newarray.length;document.write(newarray[1]+"\n"),document.write(newarray[n-2])}myfunc([50,12,3,4,5]);
+var result=[];function maxarray(r,a){for(i=0;i<r.length;i++)r[i]>a&&result.push(r[i]);document.write(result)}maxarray([3,8,7,6,5,-4,3,2,1],3);
+var index,value=[],str1=[];function longest(e){for(str1=e.split(" "),document.write(str1),i=0;i<str1.length;i++)value[i]=str1[i].length,document.write(value[i])}function arrayMax(e){for(var t=e.length,r=-1/0;t--;)e[t]>r&&(r=e[t],index=t);return r}longest("the development work");var a=arrayMax(value);document.write(str1[index]);
+var j=0,array="",count=0;function reverse(e,t){for(t=e.split(""),stri=e.split(""),len=e.length,document.write(len),i=len-1;0<=i;i--)t[j]=e[i],document.write(e[i]),j+=1;for(document.write(t),i=0;i<=len-1;i++)t[i]==stri[i]&&(count+=1);count==len?document.write("pallindrome"):document.write("not a pallindrome")}reverse("madam",""),document.write(array);
+var sum=0;function perfect(e){for(i=1;i<=e-1;i++)e%i==0&&(sum+=i);sum==e?document.write("perfect number"):document.write("not a perfect number")}perfect(8);
+var lenStr=str.length,result=[],value=0;function combString(r){for(;value<lenStr;){var t,e=r.charAt(value),u=[e];for(t in document.write(u),result)u.push(""+result[t]+e);result=result.concat(u),value++}return result}document.write(combString("abc"));
+var count=0;function prime(e){for(i=1;i<=e;i++)e%i==0&&(count+=1);2==count?document.write("it is a prime number"):document.write("not a prime number")}prime(8);
